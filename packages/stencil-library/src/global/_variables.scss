@@ -1,0 +1,226 @@
+:root {
+  /* Colors */
+
+  /* Primary */
+  --pds-color-primary-purple-50: #e7ddf8;
+  --pds-color-primary-purple-300: #ab88e7;
+  --pds-color-primary-purple-500: #6429cd;
+  --pds-color-primary-purple-700: #330072;
+  --pds-color-primary-purple-900: #1f0d3f;
+
+  --pds-color-primary-gray-50: #d8d8d6;
+  --pds-color-primary-gray-300: #75756d;
+  --pds-color-primary-gray-500: #1d1d1b;
+  --pds-color-primary-gray-700: #141413;
+  --pds-color-primary-gray-900: #030302;
+
+  --pds-color-primary-indigo-50: #f6f6fc;
+  --pds-color-primary-indigo-300: #dfdfff;
+  --pds-color-primary-indigo-500: #bdbdff;
+  --pds-color-primary-indigo-700: #8a8aff;
+  --pds-color-primary-indigo-900: #4646ff;
+
+  /* Secondary */
+  --pds-color-secondary-fuchsia-50: #fdf9ff;
+  --pds-color-secondary-fuchsia-300: #f3d7ff;
+  --pds-color-secondary-fuchsia-500: #e4a4ff;
+  --pds-color-secondary-fuchsia-700: #dd52dd;
+  --pds-color-secondary-fuchsia-900: #7500a0;
+
+  --pds-color-secondary-purpel-50: #f0dcff;
+  --pds-color-secondary-purpel-300: #bb65ff;
+  --pds-color-secondary-purpel-500: #9610ff;
+  --pds-color-secondary-purpel-700: #440099;
+  --pds-color-secondary-purpel-900: #150030;
+
+  /* Tertiary */
+  --pds-color-tertiary-yellow-50: #fdecd0;
+  --pds-color-tertiary-yellow-300: #faca7e;
+  --pds-color-tertiary-yellow-500: #f8af3c;
+  --pds-color-tertiary-yellow-700: #c77c07;
+  --pds-color-tertiary-yellow-900: #754904;
+
+  /* Grayscale */
+  --pds-color-gray-50: #f6f7fc;
+  --pds-color-gray-100: #e8e8ed;
+  --pds-color-gray-200: #d2d2d6;
+  --pds-color-gray-300: #b6b6ba;
+  --pds-color-gray-400: #9d9da1;
+  --pds-color-gray-500: #828285;
+  --pds-color-gray-600: #666669;
+  --pds-color-gray-700: #4d4d4f;
+  --pds-color-gray-800: #282829;
+  --pds-color-gray-900: #0c0c0d;
+
+  /* Success */
+  --pds-color-success-50: #94ffdf;
+  --pds-color-success-300: #1affba;
+  --pds-color-success-500: #00eca5;
+  --pds-color-success-700: #00b880;
+  --pds-color-success-900: #006b4b;
+
+  /* Warning */
+  --pds-color-warning-50: #ffeeb3;
+  --pds-color-warning-300: #ffda57;
+  --pds-color-warning-500: #ffca10;
+  --pds-color-warning-700: #dbab00;
+  --pds-color-warning-900: #997700;
+
+  /* Error */
+  --pds-color-error-50: #ffb8c9;
+  --pds-color-error-300: #ff527b;
+  --pds-color-error-500: #ed0039;
+  --pds-color-error-700: #b8002c;
+  --pds-color-error-900: #660019;
+
+  /* Shades */
+  --pds-color-white-50: #ffffff;
+  --pds-color-black-300: #000000;
+
+  /* Fonts */
+
+  --pds-font-family-base: 'Poppins', sans-serif;
+  --pds-font-weight-regular: 400;
+  --pds-font-weight-semibold: 600;
+  --pds-font-weight-bold: 700;
+
+  /* Display 01*/
+  --pds-font-display-01-size: 72px;
+  --pds-font-display-01-line-height: 76px;
+  --pds-font-display-01-regular: var(--pds-font-weight-regular) var(--pds-font-display-01-size) / var(--pds-font-display-01-line-height) var(--pds-font-family-base);
+  --pds-font-display-01-semibold: var(--pds-font-weight-semibold) var(--pds-font-display-01-size) / var(--pds-font-display-01-line-height) var(--pds-font-family-base);
+  --pds-font-display-01-bold: var(--pds-font-weight-bold) var(--pds-font-display-01-size) / var(--pds-font-display-01-line-height) var(--pds-font-family-base);
+
+  /* Display 02*/
+  --pds-font-display-02-size: 60px;
+  --pds-font-display-02-line-height: 64px;
+  --pds-font-display-02-regular: var(--pds-font-weight-regular) var(--pds-font-display-02-size) / var(--pds-font-display-02-line-height) var(--pds-font-family-base);
+  --pds-font-display-02-semibold: var(--pds-font-weight-semibold) var(--pds-font-display-02-size) / var(--pds-font-display-02-line-height) var(--pds-font-family-base);
+  --pds-font-display-02-bold: var(--pds-font-weight-bold) var(--pds-font-display-02-size) / var(--pds-font-display-02-line-height) var(--pds-font-family-base);
+
+  /* Heading 01*/
+  --pds-font-heading-01-size: 46px;
+  --pds-font-heading-01-line-height: 50px;
+  --pds-font-heading-01-regular: var(--pds-font-weight-regular) var(--pds-font-heading-01-size) / var(--pds-font-heading-01-line-height) var(--pds-font-family-base);
+  --pds-font-heading-01-semibold: var(--pds-font-weight-semibold) var(--pds-font-heading-01-size) / var(--pds-font-heading-01-line-height) var(--pds-font-family-base);
+  --pds-font-heading-01-bold: var(--pds-font-weight-bold) var(--pds-font-heading-01-size) / var(--pds-font-heading-01-line-height) var(--pds-font-family-base);
+
+    /* Heading 02*/
+  --pds-font-heading-02-size: 36px;
+  --pds-font-heading-02-line-height: 40px;
+  --pds-font-heading-02-regular: var(--pds-font-weight-regular) var(--pds-font-heading-02-size) / var(--pds-font-heading-02-line-height) var(--pds-font-family-base);
+  --pds-font-heading-02-semibold: var(--pds-font-weight-semibold) var(--pds-font-heading-02-size) / var(--pds-font-heading-02-line-height) var(--pds-font-family-base);
+  --pds-font-heading-02-bold: var(--pds-font-weight-bold) var(--pds-font-heading-02-size) / var(--pds-font-heading-02-line-height) var(--pds-font-family-base);
+
+    /* Heading 03*/
+  --pds-font-heading-03-size: 30px;
+  --pds-font-heading-03-line-height: 34px;
+  --pds-font-heading-03-regular: var(--pds-font-weight-regular) var(--pds-font-heading-03-size) / var(--pds-font-heading-03-line-height) var(--pds-font-family-base);
+  --pds-font-heading-03-semibold: var(--pds-font-weight-semibold) var(--pds-font-heading-03-size) / var(--pds-font-heading-03-line-height) var(--pds-font-family-base);
+  --pds-font-heading-03-bold: var(--pds-font-weight-bold) var(--pds-font-heading-03-size) / var(--pds-font-heading-03-line-height) var(--pds-font-family-base);
+
+    /* Heading 04*/
+  --pds-font-heading-04-size: 26px;
+  --pds-font-heading-04-line-height: 30px;
+  --pds-font-heading-04-regular: var(--pds-font-weight-regular) var(--pds-font-heading-04-size) / var(--pds-font-heading-04-line-height) var(--pds-font-family-base);
+  --pds-font-heading-04-semibold: var(--pds-font-weight-semibold) var(--pds-font-heading-04-size) / var(--pds-font-heading-04-line-height) var(--pds-font-family-base);
+  --pds-font-heading-04-bold: var(--pds-font-weight-bold) var(--pds-font-heading-04-size) / var(--pds-font-heading-04-line-height) var(--pds-font-family-base);
+
+    /* Heading 05*/
+  --pds-font-heading-05-size: 21px;
+  --pds-font-heading-05-line-height: 25px;
+  --pds-font-heading-05-regular: var(--pds-font-weight-regular) var(--pds-font-heading-05-size) / var(--pds-font-heading-05-line-height) var(--pds-font-family-base);
+  --pds-font-heading-05-semibold: var(--pds-font-weight-semibold) var(--pds-font-heading-05-size) / var(--pds-font-heading-05-line-height) var(--pds-font-family-base);
+  --pds-font-heading-05-bold: var(--pds-font-weight-bold) var(--pds-font-heading-05-size) / var(--pds-font-heading-05-line-height) var(--pds-font-family-base);
+
+    /* Heading 06*/
+  --pds-font-heading-06-size: 16px;
+  --pds-font-heading-06-line-height: 20px;
+  --pds-font-heading-06-regular: var(--pds-font-weight-regular) var(--pds-font-heading-06-size) / var(--pds-font-heading-06-line-height) var(--pds-font-family-base);
+  --pds-font-heading-06-semibold: var(--pds-font-weight-semibold) var(--pds-font-heading-06-size) / var(--pds-font-heading-06-line-height) var(--pds-font-family-base);
+  --pds-font-heading-06-bold: var(--pds-font-weight-bold) var(--pds-font-heading-06-size) / var(--pds-font-heading-06-line-height) var(--pds-font-family-base);
+
+  /* Subheading */
+  --pds-font-subheading-size: 30px;
+  --pds-font-subheading-line-height: 34px;
+  --pds-font-subheading-regular: var(--pds-font-weight-regular) var(--pds-font-subheading-size) / var(--pds-font-subheading-line-height) var(--pds-font-family-base);
+  --pds-font-subheading-bold: var(--pds-font-weight-bold) var(--pds-font-subheading-size) / var(--pds-font-subheading-line-height) var(--pds-font-family-base);
+
+  /* Paragraph 01 */
+  --pds-font-paragraph-01-size: 21px;
+  --pds-font-paragraph-01-line-height: 25px;
+  --pds-font-paragraph-01-regular: var(--pds-font-weight-regular) var(--pds-font-paragraph-01-size) / var(--pds-font-paragraph-01-line-height) var(--pds-font-family-base);
+  --pds-font-paragraph-01-bold: var(--pds-font-weight-bold) var(--pds-font-paragraph-01-size) / var(--pds-font-paragraph-01-line-height) var(--pds-font-family-base);
+
+  /* Paragraph 02 */
+  --pds-font-paragraph-02-size: 16px;
+  --pds-font-paragraph-02-line-height: 20px;
+  --pds-font-paragraph-02-regular: var(--pds-font-weight-regular) var(--pds-font-paragraph-02-size) / var(--pds-font-paragraph-02-line-height) var(--pds-font-family-base);
+  --pds-font-paragraph-02-bold: var(--pds-font-weight-bold) var(--pds-font-paragraph-02-size) / var(--pds-font-paragraph-02-line-height) var(--pds-font-family-base);
+
+  /* Paragraph 03 */
+  --pds-font-paragraph-03-size: 14px;
+  --pds-font-paragraph-03-line-height: 18px;
+  --pds-font-paragraph-03-regular: var(--pds-font-weight-regular) var(--pds-font-paragraph-03-size) / var(--pds-font-paragraph-03-line-height) var(--pds-font-family-base);
+  --pds-font-paragraph-03-bold: var(--pds-font-weight-bold) var(--pds-font-paragraph-03-size) / var(--pds-font-paragraph-03-line-height) var(--pds-font-family-base);
+
+  /* Caption */
+  --pds-font-caption-size: 12px;
+  --pds-font-caption-line-height: 16px;
+  --pds-font-caption-regular: var(--pds-font-weight-regular) var(--pds-font-caption-size) / var(--pds-font-caption-line-height) var(--pds-font-family-base);
+  --pds-font-caption-bold: var(--pds-font-weight-bold) var(--pds-font-caption-size) / var(--pds-font-caption-line-height) var(--pds-font-family-base);
+
+  /* Footer */
+  --pds-font-footer-size: 10px;
+  --pds-font-footer-line-height: 14px;
+  --pds-font-footer-regular: var(--pds-font-weight-regular) var(--pds-font-footer-size) / var(--pds-font-footer-line-height) var(--pds-font-family-base);
+  --pds-font-footer-bold: var(--pds-font-weight-bold) var(--pds-font-footer-size) / var(--pds-font-footer-line-height) var(--pds-font-family-base);
+
+
+  /* Spaces */
+  --pds-space-xxs: 4px;
+  --pds-space-xs: 8px;
+  --pds-space-s: 16px;
+  --pds-space-m: 24px;
+  --pds-space-l: 32px;
+  --pds-space-xl: 40px;
+  --pds-space-xxl: 48px;
+  --pds-space-xxl-2: 56px;
+  --pds-space-xxl-3: 64px;
+  --pds-space-xxl-4: 72px;
+  --pds-space-xxl-5: 80px;
+  --pds-space-xxl-6: 88px;
+
+  /* Effects */
+
+  /* Box Shadow */
+  --pds-box-shadow-100-dark: 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 3px 6px rgba(0, 0, 0, 0.06);
+  --pds-box-shadow-200-dark: 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 6px 12px rgba(0, 0, 0, 0.06);
+  --pds-box-shadow-300-dark: 0px 4px 24px rgba(0, 0, 0, 0.06), 0px 12px 24px rgba(0, 0, 0, 0.06);
+  --pds-box-shadow-400-dark: 0px 4px 24px rgba(0, 0, 0, 0.06), 0px 24px 48px rgba(0, 0, 0, 0.1);
+  --pds-box-shadow-500-dark: 0px 4px 24px rgba(0, 0, 0, 0.06), 0px 36px 60px rgba(0, 0, 0, 0.1);
+
+  --pds-box-shadow-100-white: 0px 4px 4px rgba(255, 255, 255, 0.12), 0px 3px 6px rgba(255, 255, 255, 0.4);
+  --pds-box-shadow-200-white: 0px 4px 4px rgba(255, 255, 255, 0.12), 0px 6px 12px rgba(255, 255, 255, 0.4);
+  --pds-box-shadow-300-white: 0px 4px 24px rgba(255, 255, 255, 0.24), 0px 12px 24px rgba(255, 255, 255, 0.4);
+  --pds-box-shadow-400-white: 0px 4px 24px rgba(255, 255, 255, 0.4), 0px 24px 48px rgba(255, 255, 255, 0.4);
+  --pds-box-shadow-500-white: 0px 4px 24px rgba(255, 255, 255, 0.4), 0px 36px 60px rgba(255, 255, 255, 0.4);
+
+  --pds-box-shadow-100-purple: 0px 4px 4px rgba(100, 41, 205, 0.12), 0px 3px 6px rgba(100, 41, 205, 0.4);
+  --pds-box-shadow-200-purple: 0px 4px 4px rgba(100, 41, 205, 0.12), 0px 6px 12px rgba(100, 41, 205, 0.4);
+  --pds-box-shadow-300-purple: 0px 4px 24px rgba(100, 41, 205, 0.24), 0px 12px 24px rgba(100, 41, 205, 0.4);
+  --pds-box-shadow-400-purple: 0px 4px 24px rgba(100, 41, 205, 0.4), 0px 24px 48px rgba(100, 41, 205, 0.4);
+  --pds-box-shadow-500-purple: 0px 4px 24px rgba(100, 41, 205, 0.4), 0px 36px 60px rgba(100, 41, 205, 0.4);
+
+  --pds-inner-shadow-01: 0px 0px 15px #6429CD, inset 0px 0px 20px rgba(189, 189, 255, 0.2);
+  --pds-inner-shadow-02: 0px 5px 10px rgba(100, 41, 205, 0.6), inset 0px 0px 6px rgba(189, 189, 255, 0.6);
+  --pds-inner-shadow-03: 0px 12px 24px rgba(100, 41, 205, 0.6), inset 0px 0px 20px rgba(189, 189, 255, 0.6);
+  --pds-inner-shadow-04: 0px 0px 15px rgba(246, 247, 252, 0.8), inset 0px 0px 20px rgba(246, 247, 252, 0.2);
+
+  --pds-box-shadow-up-01: 0px -4px 20px rgba(100, 41, 205, 0.8);
+
+  /*Opacity*/
+  --pds-opacity-100: .08;
+  --pds-opacity-300: .3;
+  --pds-opacity-500: .6;
+}

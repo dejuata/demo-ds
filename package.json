@@ -1,0 +1,28 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.1.1",
+    "lerna": "^6.6.1",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "postinstall": "npm run bootstrap",
+    "bootstrap": "lerna bootstrap",
+    "build": "npm run build.stencil && npm run build.angular && npm run build.react",
+    "build.stencil": "lerna run --scope 'stencil-library' build",
+    "build.angular": "lerna run --scope 'angular-workspace' build",
+    "build.react": "lerna run --scope 'react-library' build",
+    "install.starter": "npm run install.angular && npm run install.react",
+    "install.angular": "cd ./packages/starter-kits/angular-app && npm i",
+    "install.react": "cd ./packages/starter-kits/react-app && npm i",
+    "storybook": "lerna run --scope 'stencil-library' storybook"
+  },
+  "engines": {
+    "node": "^16 || ^18",
+    "npm": "^8.5"
+  }
+}
