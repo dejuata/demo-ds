@@ -1,4 +1,5 @@
 import {defineCustomElements} from '../loader';
+import { themes } from '@storybook/theming';
 
 defineCustomElements();
 
@@ -11,6 +12,21 @@ const preview = {
         color: /(background|color)$/i,
         date: /Date$/,
       },
+    },
+    backgrounds: {
+      grid: {
+        disable: true,
+      },
+      disable: true,
+    },
+    docs: {
+      theme: themes.dark,
+    },
+    themes: {
+      list: [
+        { name: 'Light Theme', class: 'light-theme', color: '#eceff4', default: true },
+        { name: 'Dark Theme', class: 'dark-theme', color: '#192635' },
+      ],
     },
   },
 };
