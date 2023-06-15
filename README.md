@@ -1,20 +1,39 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Pragma Design System
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+Este proyecto es una biblioteca de Web components personalizados para el uso y desarrollo de los diferentes proyectos de pragma.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+# Packages
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+| Proyecto      | Descripción |
+| ------------- | ----------- |
+| **Stencil library** | Web components construidos en Stencil                                   |
+| **Angular library** | Wrapper de web components para su uso en Angular                        |
+| **React library**   | Wrapper de web components para su uso en React                          |
+| **Starter kits**    | Proyectos para ejecutar y probar los web components en Angular y React  |
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+# Instalación
+
+Desde la raiz del proyecto ejecute:
+
+`npm install`
+
+El anterior comando instalara las dependencias para los siguientes proyectos:
+
+- Stencil library
+- Angular library
+- React library
+
+Para la instalación de los proyectos que se encuentran en **Starter kits** ejecute:
+
+`npm run install.starter`
+
+# Build
+
+Desde la raiz del proyecto ejecute:
+
+`npm run build`
+
+Esto construira las las librerias de stencil, angular y react y permitira ejecutar los proyectos que se encuentran en **Starter kits**.
+
+
+
