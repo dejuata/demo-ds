@@ -29,11 +29,15 @@ Para la instalación de los proyectos que se encuentran en **Starter kits** ejec
 
 # Build
 
-Desde la raiz del proyecto ejecute:
+Primero ejecute la construcción de la libreria **Stencil library**, para eso ejecute:
+
+`npm run build.stencil`
+
+Finalmente ejecute:
 
 `npm run build`
 
-Esto construira las las librerias de stencil, angular y react y permitira ejecutar los proyectos que se encuentran en **Starter kits**.
+Esto construira las las librerias de angular y react y permitira ejecutar los proyectos que se encuentran en **Starter kits**.
 
 
 
