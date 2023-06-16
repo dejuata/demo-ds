@@ -1,0 +1,48 @@
+import { Canvas, Meta, ArgTypes } from '@storybook/blocks';
+
+import * as MyComponentStories from './my-component.stories';
+
+<Meta of={MyComponentStories} />
+
+# Checkbox
+
+Permiten a los usuarios seleccionar uno o más elementos de un conjunto. Pueden tener una opción para seleccionar o deseleccionar.
+
+#### Demo
+<Canvas of={MyComponentStories.Example} />
+
+#### Uso
+
+Para seleccionar uno o varios elementos de una lista de opciones predefinidas, se usan con un texto a un lado para que el usuario entienda cuáles son sus opciones a seleccionar
+
+- Asegúrate de que el tamaño del ícono sea consistente en todo su producto.
+- Se puede hacer clic tanto en el texto como el check para seleccionar el campo.
+
+#### API
+
+<ArgTypes of={MyComponentStories} />
+
+#### Variantes
+
+**Disable/Uncheck:** se usa cuando la opción esta desmarcada y el usuario no puede interactuar con ella.
+<Canvas of={MyComponentStories.Example} />
+
+**Disable/Checked:** la opción esta marcada pero el usuario no puede interactuar con ella.
+<Canvas of={MyComponentStories.Example} />
+
+**Default/Unchecked:** cuando la opción no está marcada pero el usuario puede interactuar con ella dando clic.
+<Canvas of={MyComponentStories.Example} />
+
+**Hover/Checked:** esta interacción se da cuando el usuario da hover sobre la variante default/check.
+<Canvas of={MyComponentStories.Example} />
+
+<hr />
+<br />
+##### Feedback
+**El design system es de todos y eres parte de la solución**, si identificas una oportunidad de mejora o un componente que no está en la librería siéntete libre de proponerlo.
+
+<br />
+<br />
+
+
+Puedes contactar el equipo del Design System a través del correo si necesitas ayuda <ins>design.system@pragma.com.co</ins>

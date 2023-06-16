@@ -223,4 +223,6 @@
   --pds-opacity-100: .08;
   --pds-opacity-300: .3;
   --pds-opacity-500: .6;
+// Custom token: como manejamos estos tokens (global, alias, component)
+  --color-background-base-default: var(--pds-color-white-50);
 }

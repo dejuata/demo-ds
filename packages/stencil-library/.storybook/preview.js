@@ -20,7 +20,7 @@ const preview = {
       disable: true,
     },
     docs: {
-      theme: themes.dark,
+      theme: themes.light,
     },
     themes: {
       list: [

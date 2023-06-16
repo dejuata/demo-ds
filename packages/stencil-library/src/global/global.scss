@@ -2,3 +2,7 @@
 @use 'variables';
 @use 'mixins';
 @use 'theme.dark';
+
+body {
+  background-color: var(--color-background-base-default);
+}
